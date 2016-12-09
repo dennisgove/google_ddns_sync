@@ -24,7 +24,7 @@ class App(object):
         self.write_credentials(credentials)
 
     else:
-      print "No change in IP found - no need to sync (current public IP %s)" % lastSyncedIp
+      print "No change in IP found for %s - no need to sync (current public IP %s)" % (credentials["url"], lastSyncedIp)
 
   def get_options(self):
     parser = ArgumentParser(description = "Google DDNS Sync - Sync your public IP with Google DDNS")
