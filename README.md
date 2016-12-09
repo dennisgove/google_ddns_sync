@@ -3,10 +3,10 @@
 This is a very simple python program that will sync your public IP address with your Google DDNS (Dynamic DNS) record. To use this you must have a registered Google domain and a configured Dynamic DNS entry for that domain.
 
 ```
-$> python google_ddns_sync.py --credentials <your credentials files>
+$> python google_ddns_sync.py --credentials <your credentials file>
 Syncing public ip <your public ip> with Google DDNS for url <your DDNS entry url>
 
-$> python google_ddns_sync.py --credentials <your credentials files>
+$> python google_ddns_sync.py --credentials <your credentials file>
 No change in IP found - no need to sync (current public IP <your public ip>)
 ```
 
